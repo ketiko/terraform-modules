@@ -12,5 +12,5 @@ provider "aws" {
 }
 
 output "aws_provider" {
-  value = provider.aws
+  value = aws
 }
