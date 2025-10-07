@@ -1,8 +1,8 @@
 provider "aws" {
   region = "us-east-1"
-  alias  = "my-aws-provider"
+  alias  = "my_provider"
 }
 
 output "aws_provider_alias" {
-  value = aws.my-aws-provider
+  value = provider.aws.my_provider
 }
